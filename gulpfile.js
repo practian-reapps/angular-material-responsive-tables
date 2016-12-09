@@ -32,7 +32,7 @@ var jshint = require('gulp-jshint');
 
 var config = {
     filename: 'angular-material-responsive-tables.js',
-    filenameCss: 'aangular-material-responsive-tables.css',
+    filenameCss: 'angular-material-responsive-tables.css',
     src: ['./src/scripts/*.js', './src/scripts/**/*.js'],
 
    
