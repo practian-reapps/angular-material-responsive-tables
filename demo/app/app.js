@@ -2,7 +2,7 @@ var app = angular.module('app', [
     'ui.router',
     'ngMaterial',
     'ngMdIcons',
-    'pi.appPagination',
+    'pi.tableResponsive',
 ]);
 
 app.constant("apiUrl", "http://localhost:8003"); // Resource Server -> catalogo
