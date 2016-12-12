@@ -4,7 +4,7 @@ angular-material-responsive-tables
 
 .. class:: no-web
 
-    Paquete para hacer responsivo a una ``table`` **htnml** usando css y angular
+    Paquete para hacer responsivo a una ``table`` **html** usando css y angular
 
 
 
@@ -102,7 +102,73 @@ Usage:
                             </tbody>
                         </table>
 
-
+Example 2:
+.. code-block:: html
+                    <table table-responsive>
+                        <caption>The Films of Hayao Miyazaki</caption>
+                        <thead md-on-reorder="onReorder">
+                            <tr>
+                                <th rowspan='2'>#</th>
+                                <th colspan='3'>Year dsadasd wwwww</th>
+                                <th rowspan='2' class="col-hidden" data-search="Film" data-order="Film">Film</th>
+                                <th rowspan='2'>Action</th>
+                                <th colspan='2'>Ejem</th>
+                                <th rowspan='2'>Honor</th>
+                            </tr>
+                            <tr>
+                                <th>Year1</th>
+                                <th>Year2</th>
+                                <th>Year3</th>
+                                <th class="col-hidden" data-search="Ejm1" data-order="Ejm1">Ejm1</th>
+                                <th class="col-hidden" data-search="Ejm2" data-order="Ejm2">Ejm2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>My Neighbor Totoro (Best Animated Feature)</td>
+                                <td>1988</td>
+                                <td>1988d</td>
+                                <td>dsds</td>
+                                <td>aa</td>
+                                <td>eee1</td>
+                                <td>ee2</td>
+                                <td>Blue Ribbon Award ((Best Animated Feature))</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Princess Mononoke</td>
+                                <td>1997</td>
+                                <td>1988d</td>
+                                <td>dsds</td>
+                                <td>aa</td>
+                                <td>eee2</td>
+                                <td>ee2</td>
+                                <td>Nebula Award (Best Script)</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Spirited Away</td>
+                                <td>2001</td>
+                                <td>1988d</td>
+                                <td>dsds</td>
+                                <td>aa</td>
+                                <td>eee3</td>
+                                <td>ee2</td>
+                                <td>Academy Award (Best Animated Feature)</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Howl’s Moving Castle</td>
+                                <td>2004</td>
+                                <td>1988d</td>
+                                <td>dsds</td>
+                                <td>aa</td>
+                                <td>eee4</td>
+                                <td>ee2</td>
+                                <td>Hollywood Film Festival (Animation OTY)</td>
+                            </tr>
+                    </table>
 Finally, run ``gulp serve``.
 
 
