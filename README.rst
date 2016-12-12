@@ -103,7 +103,9 @@ Usage:
                         </table>
 
 Example 2:
+
 .. code-block:: html
+
                     <table table-responsive>
                         <caption>The Films of Hayao Miyazaki</caption>
                         <thead md-on-reorder="onReorder">
