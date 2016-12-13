@@ -178,6 +178,25 @@ Finally, run:
     #run
     $ gulp
 
+Example:
+
+.. code-block:: bash
+
+    E:\practian-reapps\angular-material-responsive-tables>gulp
+    [13:55:33] Using gulpfile E:\practian-reapps\angular-material-responsive-tables\gulpfile.js
+    [13:55:33] Starting 'serve-browser-sync'...
+    [13:55:33] Finished 'serve-browser-sync' after 449 ms
+    [13:55:33] Starting 'watch'...
+    [13:55:33] Finished 'watch' after 2.19 ms
+    [13:55:33] Starting 'default'...
+    [13:55:33] Finished 'default' after 6.71 μs
+    [BS] Access URLs:
+     -------------------------------
+        Local: http://localhost:9103
+     External: http://127.0.0.1:9103
+     -------------------------------
+    [BS] Serving files from: ./demo/
+
 
 
 
